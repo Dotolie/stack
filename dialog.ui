@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>0</number>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="top">
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border-image: url(:/data/1.jpg)
+}</string>
+    </property>
+    <widget class="QPushButton" name="pb_vibration">
+     <property name="geometry">
+      <rect>
+       <x>1040</x>
+       <y>190</y>
+       <width>201</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-image:url(:/data/vib-button.png);
+ background-repeat: no-repeat;
+}    
+QPushButton:pressed{
+		border-image:url(:/data/vib-button2.png);
+ background-repeat: no-repeat;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_settings">
+     <property name="geometry">
+      <rect>
+       <x>1021</x>
+       <y>616</y>
+       <width>211</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	border-image:url(:/data/set-button.png);
+ background-repeat: no-repeat;
+}    
+QPushButton:pressed{
+		border-image:url(:/data/set-button2.png);
+ background-repeat: no-repeat;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_03">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>333</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>27</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #707070;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>12</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_05">
+     <property name="geometry">
+      <rect>
+       <x>356</x>
+       <y>333</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>27</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #707070;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234567</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>633</x>
+       <y>333</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>27</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #707070;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234567</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_25">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>587</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>27</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #707070;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>12</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_100">
+     <property name="geometry">
+      <rect>
+       <x>634</x>
+       <y>587</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>27</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #707070;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234567</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_50">
+     <property name="geometry">
+      <rect>
+       <x>357</x>
+       <y>587</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>27</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #707070;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234567</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_co2">
+     <property name="geometry">
+      <rect>
+       <x>1129</x>
+       <y>310</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #4040a0;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_tvoc">
+     <property name="geometry">
+      <rect>
+       <x>1129</x>
+       <y>375</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #4040a0;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_temp">
+     <property name="geometry">
+      <rect>
+       <x>1129</x>
+       <y>444</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #4040a0;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_hum">
+     <property name="geometry">
+      <rect>
+       <x>1129</x>
+       <y>517</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>22</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color : #4040a0;
+background-color: #f0f0f0;
+border-image: url(:/data/111.jpg);
+}</string>
+     </property>
+     <property name="text">
+      <string>1234</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="settings">
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border-image: url(:/data/3.jpg)
+}</string>
+    </property>
+    <widget class="QPushButton" name="pb_back">
+     <property name="geometry">
+      <rect>
+       <x>1120</x>
+       <y>590</y>
+       <width>80</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>back</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_setitem">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>180</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>settings</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_calibration">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>180</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>calibration</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_gateway">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>400</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>gateway</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_datatrend">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>400</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>date trend</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="setitem">
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border-image: url(:/data/4.jpg)
+}</string>
+    </property>
+    <widget class="QPushButton" name="pb_ok_item">
+     <property name="geometry">
+      <rect>
+       <x>990</x>
+       <y>110</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>280</y>
+       <width>501</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QProgressBar {
+    border:    grey;
+    border-radius: 2px;
+ text-align: center;
+    border-image: url(:/data/111.jpg);
+background: lightgray
+}
+
+QProgressBar::chunk {
+background: qlineargradient(x1: 0,
+                                y1: 0.5,
+                                x2: 1,
+                                y2: 0.5,
+                                stop: 0 #2020f0,
+                                stop: 1 #9090f0);
+    border-radius: 2px;
+    border-image: url(:/data/111.jpg)
+}</string>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+    <widget class="QDial" name="dial">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>280</y>
+       <width>81</width>
+       <height>71</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="trend">
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border-image: url(:/data/6.jpg)
+}</string>
+    </property>
+    <widget class="QPushButton" name="pb_ok_trend">
+     <property name="geometry">
+      <rect>
+       <x>1030</x>
+       <y>590</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="gateway">
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border-image: url(:/data/7.jpg)
+}</string>
+    </property>
+    <widget class="QPushButton" name="pb_ok_gateway">
+     <property name="geometry">
+      <rect>
+       <x>1030</x>
+       <y>590</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>ok</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>dial</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>progressBar</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>466</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>673</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
