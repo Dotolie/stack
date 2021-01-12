@@ -37,6 +37,8 @@ private slots:
 
     void on_pb_ok_item_clicked();
 
+    void on_pb_factoryReset_clicked();
+
 private:
     Ui::Dialog *ui;
     void resizeEvent(QResizeEvent*);

@@ -2,6 +2,7 @@
 #include "ui_dialog.h"
 #include "threadtest.h"
 #include <QRandomGenerator>
+#include <QMessageBox>
 
 Dialog::Dialog(QWidget *parent)
     : QDialog(parent)
@@ -79,4 +80,18 @@ void Dialog::setLabel(int num)
     ui->label_25->setNum(v-num);
     ui->label_50->setNum(num*num);
     ui->label_100->setNum(num*2);
+}
+
+void Dialog::on_pb_factoryReset_clicked()
+{
+    QMessageBox MsgBox;
+    MsgBox.setText(tr("Are you OK ?"));
+    MsgBox.setIcon(QMessageBox::Question);
+    MsgBox.setStandardButtons(QMessageBox::Ok | QMessageBox::Cancel);
+    MsgBox.setDefaultButton(QMessageBox::Ok);
+    MsgBox.setStyleSheet("QLabel{min-width:300px; min-height:100px; font:32px; } QPushButton( width:200px; font:32px;}");
+    if( MsgBox.exec() == QMessageBox::Ok )
+    {
+        qDebug() << "factory Reset";
+    }
 }

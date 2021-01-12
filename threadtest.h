@@ -1,6 +1,7 @@
 #ifndef THREADTEST_H
 #define THREADTEST_H
 #include <QThread>
+#include <zmq.hpp>
 #include "dialog.h"
 
 class ThreadTest : public QThread

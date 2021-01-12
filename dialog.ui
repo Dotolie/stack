@@ -26,7 +26,7 @@
     <number>0</number>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="top">
     <property name="styleSheet">
@@ -553,6 +553,24 @@ background: qlineargradient(x1: 0,
        <width>81</width>
        <height>71</height>
       </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_factoryReset">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>100</y>
+       <width>89</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-image: url(:/data/11.jpg)
+}</string>
+     </property>
+     <property name="text">
+      <string>f reset</string>
      </property>
     </widget>
    </widget>
